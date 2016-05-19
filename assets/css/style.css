@@ -1,0 +1,111 @@
+/* VARIABLES 
+======================== */
+/* MIXIN 
+======================== */
+/* MAIN 
+======================== */
+/* HEADER 
+======================== */
+header .navbar {
+  background: #00a6e2;
+  box-shadow: 1px 5px 25px #ccc;
+  border: 1px solid #00a6e2;
+}
+header .navbar .navbar-brand {
+  color: #fff;
+}
+header .navbar .icon-bar {
+  background: #fff;
+}
+header .navbar .navbar-toggle-left {
+  float: left;
+  font-weight: 700;
+  color: #fff;
+}
+header .navbar .navbar-toggle-left i {
+  margin-right: 5px;
+}
+header .navbar .navbar-toggle-left span {
+  font-weight: 400;
+  font-size: 0.9em;
+  font-style: italic;
+}
+header .navbar a {
+  color: #fff;
+}
+header .navbar a span {
+  font-style: italic;
+  font-size: 0.9em;
+}
+header .navbar a:hover {
+  background: #0093c9;
+}
+
+/* CONTENT 
+======================== */
+.content {
+  margin-top: 70px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.main-list a {
+  text-decoration: none;
+  color: #999;
+}
+.main-list ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.main-list ul li {
+  margin-bottom: 10px;
+  height: 100px;
+}
+.main-list ul li a {
+  height: 100%;
+  display: flex;
+}
+.main-list ul li:first-child {
+  height: 125px;
+}
+.main-list ul li:first-child .list-info {
+  background: #00a6e2;
+}
+.main-list ul li:first-child .list-info h2 {
+  color: #fff;
+}
+.main-list ul li:first-child .list-info p {
+  color: #fff;
+}
+.main-list ul .list-img {
+  width: 40%;
+  background-size: cover !important;
+  background-position: center !important;
+  background-color: #00c6b4 !important;
+}
+.main-list ul .list-info {
+  position: relative;
+  padding: 10px 15px;
+  width: 60%;
+  background: #eee;
+}
+.main-list ul .list-info h2 {
+  font-weight: 500;
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1.4em;
+  color: #999;
+}
+.main-list ul .list-info p {
+  position: absolute;
+  bottom: 0;
+  width: 90%;
+}
+
+/* FOOTER 
+======================== */
+/* RESPONSIVE 
+======================== */
+/* ANIMATION 
+======================== */
