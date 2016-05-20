@@ -4,6 +4,27 @@
 ======================== */
 /* MAIN 
 ======================== */
+.content {
+  margin-top: 70px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+h2 {
+  color: #00a6e2;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.btn-diw-blue {
+  background: #00a6e2;
+  color: #fff;
+}
+.btn-diw-blue:hover {
+  color: #fff;
+  background: #0093c9;
+}
+
 /* HEADER 
 ======================== */
 header .navbar {
@@ -43,12 +64,6 @@ header .navbar a:hover {
 
 /* CONTENT 
 ======================== */
-.content {
-  margin-top: 70px;
-  padding-right: 10px;
-  padding-left: 10px;
-}
-
 .main-list a {
   text-decoration: none;
   color: #999;
@@ -101,6 +116,33 @@ header .navbar a:hover {
   position: absolute;
   bottom: 0;
   width: 90%;
+}
+
+.login form {
+  margin-top: 35px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.login .input-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+.login .input-group .input-group-addon {
+  width: 40px;
+  background: none;
+  border-radius: 0;
+  border-right: none;
+}
+.login .input-group input {
+  width: 100%;
+  border-radius: 0;
+}
+.login button {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+.login a {
+  color: #00a6e2;
 }
 
 /* FOOTER 

@@ -8,6 +8,26 @@ $diw-green:		#00c6b4;
 
 /* MAIN 
 ======================== */
+.content{
+	margin-top: 70px;
+	padding-right: 10px;
+	padding-left: 10px;
+}
+h2{
+	color: $diw-blue;
+	text-align: center;
+	margin: 20px 0;
+}
+
+.btn-diw-blue{
+	background: $diw-blue;
+	color: #fff;
+
+	&:hover{
+		color: #fff;
+		background: darken($diw-blue, 5%);
+	}
+}
 
 /* HEADER 
 ======================== */
@@ -49,12 +69,6 @@ header{
 
 /* CONTENT 
 ======================== */
-.content{
-	margin-top: 70px;
-	padding-right: 10px;
-	padding-left: 10px;
-}
-
 .main-list{
 	a {
 		text-decoration: none;
@@ -111,6 +125,38 @@ header{
 				width: 90%;
 			}
 		}
+	}
+}
+
+.login{
+	
+	form{
+		margin-top: 35px;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+	.input-group{
+		margin-bottom: 10px;
+		width: 100%;
+
+		.input-group-addon{
+			width: 40px;
+			background: none;
+			border-radius: 0;
+			border-right: none;
+		}
+		input{
+			width: 100%;
+			border-radius: 0;
+		}
+	}
+	button{
+		margin-top: 5px;
+		margin-bottom: 15px;
+	}
+	a{
+		color: $diw-blue;
 	}
 }
 
